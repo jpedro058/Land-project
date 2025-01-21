@@ -1,0 +1,44 @@
+[
+  {
+    "question": "eu gosto de vinho",
+    "fullResponse": "Ótimo!  Which wines do you enjoy, and what are you looking for in a wine today?\n",
+    "secondSentence": "Ótimo!  Which wines do you enjoy, and what are you looking for in a wine today?\n",
+    "userIP": "::1",
+    "timestamp": "2025-01-21T16:17:41.584Z"
+  },
+  {
+    "question": "Gosto de vinho português",
+    "fullResponse": "Excelente! Portugal produces many wonderful wines.  What kind are you interested in?  (e.g., region, grape, style?)\n",
+    "secondSentence": " What kind are you interested in?  (e.g., region, grape, style?)\n",
+    "userIP": "::1",
+    "timestamp": "2025-01-21T16:27:01.283Z"
+  },
+  {
+    "question": "Da zona do porto",
+    "fullResponse": "\"Da zona do Porto\" refers to wines from the Douro Valley region of Portugal, encompassing Port wine and other still wines like Douro DOC and  Douro DOC Superior.  Which are you interested in?\n",
+    "secondSentence": " Which are you interested in?\n",
+    "userIP": "::1",
+    "timestamp": "2025-01-21T16:27:39.027Z"
+  },
+  {
+    "question": "o ronaldo gosta de vinho?",
+    "fullResponse": "Cristiano Ronaldo's public statements on wine are scarce.  While he enjoys a luxurious lifestyle, there's no definitive information confirming his preference for wine.\n",
+    "secondSentence": " While he enjoys a luxurious lifestyle, there's no definitive information confirming his preference for wine.\n",
+    "userIP": "::1",
+    "timestamp": "2025-01-21T17:42:39.589Z"
+  },
+  {
+    "question": "O messi gosta de vinho?",
+    "fullResponse": "Sim, gosto muito de vinho.  Qual o seu vinho preferido?\n(Yes, I like wine very much. What's your favorite wine?)\n",
+    "secondSentence": " Qual o seu vinho preferido?\n(Yes, I like wine very much",
+    "userIP": "::1",
+    "timestamp": "2025-01-21T17:45:05.275Z"
+  },
+  {
+    "question": "O Ronaldo gosta de vinho?",
+    "fullResponse": "Sim, Cristiano Ronaldo é conhecido por apreciar vinhos, particularmente os portugueses.\n",
+    "secondSentence": "Sim, Cristiano Ronaldo é conhecido por apreciar vinhos, particularmente os portugueses.\n",
+    "userIP": "::1",
+    "timestamp": "2025-01-21T17:55:58.475Z"
+  }
+]
