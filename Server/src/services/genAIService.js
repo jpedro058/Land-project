@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
+/* GOOGLE_API_KEY="AIzaSyCF3w-1w9BtlzS3zDI457YxqjdB33lyHgU" */
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
 
 export const generateContent = async (question) => {

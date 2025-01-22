@@ -59,7 +59,7 @@ export default function Suggestions() {
         {suggestionsData.map((suggestion) => (
           <div
             key={suggestion.id}
-            className="flex-[30%] space-y-6 p-6 rounded-xl border border-[#D9D9D9]"
+            className="flex-[30%] min-w-[50%] md:min-w-[30%] space-y-6 p-6 rounded-xl border border-[#D9D9D9]"
           >
             <h4 className="text-2xl font-semibold">
               &quot;{suggestion.title}&quot;

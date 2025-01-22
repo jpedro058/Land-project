@@ -1,16 +1,16 @@
-import { useState } from "react";
 import Icon from "../assets/Icon.png";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
-  const [activePage, setActivePage] = useState("Inicio");
+  const location = useLocation();
 
   const navbarItems = [
     { name: "Inicio", href: "/" },
-    { name: "Serviços", href: "/Serviços" },
-    { name: "Comunidade", href: "/Comunidade" },
-    { name: "Recursos", href: "/Recursos" },
-    { name: "Preços", href: "/Preços" },
-    { name: "Contacto", href: "/Contacto" },
+    { name: "Dashboard", href: "/Dashboard" },
+    { name: "Comunidade", href: "" },
+    { name: "Recursos", href: "" },
+    { name: "Preços", href: "" },
+    { name: "Contacto", href: "" },
   ];
 
   return (
@@ -21,18 +21,14 @@ export default function Navbar() {
         <ul className="flex justify-center items-center">
           {navbarItems.map((item) => (
             <li className="" key={item.name}>
-              <a
-                href={item.href}
-                className={`text-[#1E1E1E] hover:text-zinc-700 px-8 py-2 rounded-lg ${
-                  activePage === item.name ? "bg-[#F5F5F5]" : ""
+              <Link
+                to={item.href}
+                className={`text-[#1E1E1E] hover:text-zinc-700 px-8 py-2 rounded-lg cursor-pointer ${
+                  location.pathname === item.href ? "bg-[#F5F5F5]" : ""
                 }`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  setActivePage(item.name);
-                }}
               >
                 {item.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
